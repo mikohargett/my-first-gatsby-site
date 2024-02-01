@@ -1,13 +1,14 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
+import { container } from './layout.module.css'
 
 const Layout = ({  pageTitle, children }) => {
     return (
-        <div>
+        <div className={container}>
             <nav>
                 <ul>
-                    <link><Link to="/">Home</Link></link>
-                    <link><Link to="/about">About</Link></link>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
                 </ul>
             </nav>
             <main>

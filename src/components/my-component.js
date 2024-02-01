@@ -5,8 +5,8 @@ import * as React from 'react'
 const MyComponent = () => {
     return (
         <div>
-            <h1>Hi, welcome to my site!</h1>
-            <p>This is a valid component, because there is only one top-level element.</p>
+            <h1 className={title}>Hi, welcome to my site!</h1>
+            <p>Super Sweet Title Page</p>
         </div>
     )
 }
@@ -14,4 +14,4 @@ const MyComponent = () => {
 /* Step 3: Export your component so it can be used by other parts of your app. */
 export default MyComponent
 
-/* Your component must return a single React element, but you can put as many elements inside that top-level element as you want. If you try to add multiple top level elements you will get an error. */
+/* Your component must return a single React element, but you can put as many elements inside that top-level element as you want. If you try to add multiple top level elements you will get an error. Above is a valid component, because there is only one top-level element.*/
